@@ -3,6 +3,10 @@ import { ref, computed, onMounted } from 'vue';
 import { useTeamsStore } from '~/stores/teams';
 import type { Team, FormattedMatch } from '~/types';
 
+definePageMeta({
+  layout: 'team-details',
+});
+
 const route = useRoute();
 const router = useRouter();
 const teamsStore = useTeamsStore();
