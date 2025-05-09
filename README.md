@@ -23,7 +23,7 @@ The project underwent a comprehensive refactoring from a monolithic app.vue file
 
 ## System Requirements
 
-- Node.js >= 18.0.0
+- Node.js >= 20.12.0
 - npm >= 8.0.0 or pnpm >= 8.0.0 or yarn >= 1.22.0
 
 ## Setup
